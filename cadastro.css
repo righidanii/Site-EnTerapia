@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;    
+    box-sizing: border-box;
+    background: #4cfd4c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+}
+a{
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    margin: 20%;
+    border-radius: 5px;
+    border: #000 solid;
+    background: #06d006;
+    text-decoration: none;
+}
+
+

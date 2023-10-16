@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cliente</title>
+</head>
+<link rel="stylesheet" href="cadcliente.css">
+<body>
+    <header>
+        <h1>Formulário Cliente</h1>
+    </header>
+    
+    <main>
+        <form action="#">
+    
+    <fieldset>
+    <legend>
+        Dados Pessoais:
+    </legend>
+    <!-- Label serve para identificar/rotular campo -->
+    <label for="CNome">Nome Completo</label>
+    <input type="text" name="" id="CNome" size="80" required maxlength="80">
+    <br><br>
+    <label for="Ctelefone">Telefone</label>
+    <input type="text" name="" id="Ctelefone" size="80" required maxlength="80">
+    </fieldset>
+    <br><br>
+
+    <fieldset>
+    <legend>
+        Informações Extras:
+    </legend>
+    <label for="">Possui alguma necessidade especial?</label><br>
+    <input type="radio" name="tipo" id="Sim" value="S">
+    <label for="Sim"> Sim </label>
+    <br>
+    <input type="radio" name="tipo" id="Não" value="N">
+    <label for="Não">Não</label>
+    <br>
+    <textarea name="mensagem" id="mensagem" cols="60" rows="4" placeholder="Digite aqui"></textarea>
+
+    <br><br>
+
+    <fieldset>
+        <legend>
+            Conta:
+        </legend>
+        <!-- Label serve para identificar/rotular campo -->
+        <label for="CEmail">Email</label>
+        <input type="text" name="" id="CEmail" size="80" required maxlength="80">
+        <br><br>
+        <label for="CSenha">Senha</label>
+        <input type="text" name="" id="CSenha" size="80" required maxlength="80">
+        </fieldset>
+    
+    <br>
+    
+    <input type="submit" value="Enviar">
+    
+        </form>
+    
+
+    
+
+
+
+    
+
+</main>
+</body>
+</html>
